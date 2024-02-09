@@ -26,7 +26,7 @@ public class CalculatorController {
     }
     @GetMapping( "/minus")
     public String minus(@RequestParam int num1,@RequestParam  int num2 ) {
-        int result = service.subtract(num1, num2);
+        int result = service.minus(num1, num2);
         return  num1 +" - " + num2 + " = " + result;
     }
     @GetMapping( "/multiply")
