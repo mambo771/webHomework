@@ -17,7 +17,7 @@ public class CalculatorController {
 
     @GetMapping
     public String hello() {
-        return "Добро пожаловать в калькулятор ";
+        return "Добро  пожаловать в калькулятор ";
     }
     @GetMapping( "/plus")
     public String sum(@RequestParam int num1,@RequestParam  int num2 ) {
